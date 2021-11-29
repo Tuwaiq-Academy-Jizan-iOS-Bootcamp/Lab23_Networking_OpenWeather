@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFF020AA275292130059E5F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF020A9275292130059E5F0 /* AppDelegate.swift */; };
+		AFF020AC275292130059E5F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF020AB275292130059E5F0 /* SceneDelegate.swift */; };
+		AFF020AE275292130059E5F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF020AD275292130059E5F0 /* ViewController.swift */; };
+		AFF020B1275292130059E5F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF020AF275292130059E5F0 /* Main.storyboard */; };
+		AFF020B3275292150059E5F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF020B2275292150059E5F0 /* Assets.xcassets */; };
+		AFF020B6275292150059E5F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF020B4275292150059E5F0 /* LaunchScreen.storyboard */; };
+		AFF020C1275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF020C0275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathTests.swift */; };
+		AFF020CB275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF020CA275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathUITests.swift */; };
+		AFF020CD275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF020CC275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathUITestsLaunchTests.swift */; };
+		AFF020DC275292650059E5F0 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF020DB275292650059E5F0 /* Weather.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFF020BD275292150059E5F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFF0209E275292130059E5F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFF020A5275292130059E5F0;
+			remoteInfo = ArwaAlattas_lab23_Networking_OpenWeath;
+		};
+		AFF020C7275292150059E5F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFF0209E275292130059E5F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFF020A5275292130059E5F0;
+			remoteInfo = ArwaAlattas_lab23_Networking_OpenWeath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFF020A6275292130059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArwaAlattas_lab23_Networking_OpenWeath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF020A9275292130059E5F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFF020AB275292130059E5F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFF020AD275292130059E5F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFF020B0275292130059E5F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFF020B2275292150059E5F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFF020B5275292150059E5F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFF020B7275292150059E5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF020BC275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArwaAlattas_lab23_Networking_OpenWeathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF020C0275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArwaAlattas_lab23_Networking_OpenWeathTests.swift; sourceTree = "<group>"; };
+		AFF020C6275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArwaAlattas_lab23_Networking_OpenWeathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF020CA275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArwaAlattas_lab23_Networking_OpenWeathUITests.swift; sourceTree = "<group>"; };
+		AFF020CC275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArwaAlattas_lab23_Networking_OpenWeathUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFF020DB275292650059E5F0 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFF020A3275292130059E5F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF020B9275292150059E5F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF020C3275292150059E5F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFF0209D275292130059E5F0 = {
+			isa = PBXGroup;
+			children = (
+				AFF020A8275292130059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeath */,
+				AFF020BF275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathTests */,
+				AFF020C9275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathUITests */,
+				AFF020A7275292130059E5F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFF020A7275292130059E5F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFF020A6275292130059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeath.app */,
+				AFF020BC275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathTests.xctest */,
+				AFF020C6275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFF020A8275292130059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeath */ = {
+			isa = PBXGroup;
+			children = (
+				AFF020A9275292130059E5F0 /* AppDelegate.swift */,
+				AFF020AB275292130059E5F0 /* SceneDelegate.swift */,
+				AFF020DD2752926B0059E5F0 /* Model */,
+				AFF020DA275292350059E5F0 /* Controller */,
+				AFF020D9275292220059E5F0 /* View */,
+				AFF020B2275292150059E5F0 /* Assets.xcassets */,
+				AFF020B4275292150059E5F0 /* LaunchScreen.storyboard */,
+				AFF020B7275292150059E5F0 /* Info.plist */,
+			);
+			path = ArwaAlattas_lab23_Networking_OpenWeath;
+			sourceTree = "<group>";
+		};
+		AFF020BF275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFF020C0275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathTests.swift */,
+			);
+			path = ArwaAlattas_lab23_Networking_OpenWeathTests;
+			sourceTree = "<group>";
+		};
+		AFF020C9275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFF020CA275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathUITests.swift */,
+				AFF020CC275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathUITestsLaunchTests.swift */,
+			);
+			path = ArwaAlattas_lab23_Networking_OpenWeathUITests;
+			sourceTree = "<group>";
+		};
+		AFF020D9275292220059E5F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AFF020AF275292130059E5F0 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AFF020DA275292350059E5F0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AFF020AD275292130059E5F0 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AFF020DD2752926B0059E5F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFF020DB275292650059E5F0 /* Weather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFF020A5275292130059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF020D0275292150059E5F0 /* Build configuration list for PBXNativeTarget "ArwaAlattas_lab23_Networking_OpenWeath" */;
+			buildPhases = (
+				AFF020A2275292130059E5F0 /* Sources */,
+				AFF020A3275292130059E5F0 /* Frameworks */,
+				AFF020A4275292130059E5F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArwaAlattas_lab23_Networking_OpenWeath;
+			productName = ArwaAlattas_lab23_Networking_OpenWeath;
+			productReference = AFF020A6275292130059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFF020BB275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF020D3275292150059E5F0 /* Build configuration list for PBXNativeTarget "ArwaAlattas_lab23_Networking_OpenWeathTests" */;
+			buildPhases = (
+				AFF020B8275292150059E5F0 /* Sources */,
+				AFF020B9275292150059E5F0 /* Frameworks */,
+				AFF020BA275292150059E5F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFF020BE275292150059E5F0 /* PBXTargetDependency */,
+			);
+			name = ArwaAlattas_lab23_Networking_OpenWeathTests;
+			productName = ArwaAlattas_lab23_Networking_OpenWeathTests;
+			productReference = AFF020BC275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFF020C5275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF020D6275292150059E5F0 /* Build configuration list for PBXNativeTarget "ArwaAlattas_lab23_Networking_OpenWeathUITests" */;
+			buildPhases = (
+				AFF020C2275292150059E5F0 /* Sources */,
+				AFF020C3275292150059E5F0 /* Frameworks */,
+				AFF020C4275292150059E5F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFF020C8275292150059E5F0 /* PBXTargetDependency */,
+			);
+			name = ArwaAlattas_lab23_Networking_OpenWeathUITests;
+			productName = ArwaAlattas_lab23_Networking_OpenWeathUITests;
+			productReference = AFF020C6275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFF0209E275292130059E5F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					AFF020A5275292130059E5F0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AFF020BB275292150059E5F0 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AFF020A5275292130059E5F0;
+					};
+					AFF020C5275292150059E5F0 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AFF020A5275292130059E5F0;
+					};
+				};
+			};
+			buildConfigurationList = AFF020A1275292130059E5F0 /* Build configuration list for PBXProject "ArwaAlattas_lab23_Networking_OpenWeath" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFF0209D275292130059E5F0;
+			productRefGroup = AFF020A7275292130059E5F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFF020A5275292130059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeath */,
+				AFF020BB275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathTests */,
+				AFF020C5275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFF020A4275292130059E5F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF020B6275292150059E5F0 /* LaunchScreen.storyboard in Resources */,
+				AFF020B3275292150059E5F0 /* Assets.xcassets in Resources */,
+				AFF020B1275292130059E5F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF020BA275292150059E5F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF020C4275292150059E5F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFF020A2275292130059E5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF020DC275292650059E5F0 /* Weather.swift in Sources */,
+				AFF020AE275292130059E5F0 /* ViewController.swift in Sources */,
+				AFF020AA275292130059E5F0 /* AppDelegate.swift in Sources */,
+				AFF020AC275292130059E5F0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF020B8275292150059E5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF020C1275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF020C2275292150059E5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF020CB275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathUITests.swift in Sources */,
+				AFF020CD275292150059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeathUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFF020BE275292150059E5F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFF020A5275292130059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeath */;
+			targetProxy = AFF020BD275292150059E5F0 /* PBXContainerItemProxy */;
+		};
+		AFF020C8275292150059E5F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFF020A5275292130059E5F0 /* ArwaAlattas_lab23_Networking_OpenWeath */;
+			targetProxy = AFF020C7275292150059E5F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFF020AF275292130059E5F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF020B0275292130059E5F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFF020B4275292150059E5F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF020B5275292150059E5F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFF020CE275292150059E5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFF020CF275292150059E5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFF020D1275292150059E5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArwaAlattas_lab23_Networking_OpenWeath/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lab23-Networking-OpenWeath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFF020D2275292150059E5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArwaAlattas_lab23_Networking_OpenWeath/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lab23-Networking-OpenWeath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFF020D4275292150059E5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lab23-Networking-OpenWeathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArwaAlattas_lab23_Networking_OpenWeath.app/ArwaAlattas_lab23_Networking_OpenWeath";
+			};
+			name = Debug;
+		};
+		AFF020D5275292150059E5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lab23-Networking-OpenWeathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArwaAlattas_lab23_Networking_OpenWeath.app/ArwaAlattas_lab23_Networking_OpenWeath";
+			};
+			name = Release;
+		};
+		AFF020D7275292150059E5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lab23-Networking-OpenWeathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArwaAlattas_lab23_Networking_OpenWeath;
+			};
+			name = Debug;
+		};
+		AFF020D8275292150059E5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lab23-Networking-OpenWeathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArwaAlattas_lab23_Networking_OpenWeath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFF020A1275292130059E5F0 /* Build configuration list for PBXProject "ArwaAlattas_lab23_Networking_OpenWeath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF020CE275292150059E5F0 /* Debug */,
+				AFF020CF275292150059E5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF020D0275292150059E5F0 /* Build configuration list for PBXNativeTarget "ArwaAlattas_lab23_Networking_OpenWeath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF020D1275292150059E5F0 /* Debug */,
+				AFF020D2275292150059E5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF020D3275292150059E5F0 /* Build configuration list for PBXNativeTarget "ArwaAlattas_lab23_Networking_OpenWeathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF020D4275292150059E5F0 /* Debug */,
+				AFF020D5275292150059E5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF020D6275292150059E5F0 /* Build configuration list for PBXNativeTarget "ArwaAlattas_lab23_Networking_OpenWeathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF020D7275292150059E5F0 /* Debug */,
+				AFF020D8275292150059E5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFF0209E275292130059E5F0 /* Project object */;
+}
