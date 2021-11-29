@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14CFA56D275453930090C46D /* Info Weathar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CFA56C275453930090C46D /* Info Weathar.swift */; };
+		14CFA56E2754E8F70090C46D /* Ahlam_WeatharUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F2443427525BD4001E2AFC /* Ahlam_WeatharUITests.swift */; };
+		14F2441427525BD3001E2AFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F2441327525BD3001E2AFC /* AppDelegate.swift */; };
+		14F2441627525BD3001E2AFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F2441527525BD3001E2AFC /* SceneDelegate.swift */; };
+		14F2441827525BD3001E2AFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F2441727525BD3001E2AFC /* ViewController.swift */; };
+		14F2441B27525BD3001E2AFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F2441927525BD3001E2AFC /* Main.storyboard */; };
+		14F2441D27525BD4001E2AFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F2441C27525BD4001E2AFC /* Assets.xcassets */; };
+		14F2442027525BD4001E2AFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F2441E27525BD4001E2AFC /* LaunchScreen.storyboard */; };
+		14F2442B27525BD4001E2AFC /* Ahlam_WeatharTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F2442A27525BD4001E2AFC /* Ahlam_WeatharTests.swift */; };
+		14F2443727525BD4001E2AFC /* Ahlam_WeatharUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F2443627525BD4001E2AFC /* Ahlam_WeatharUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14F2442727525BD4001E2AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14F2440827525BD3001E2AFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F2440F27525BD3001E2AFC;
+			remoteInfo = Ahlam_Weathar;
+		};
+		14F2443127525BD4001E2AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14F2440827525BD3001E2AFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F2440F27525BD3001E2AFC;
+			remoteInfo = Ahlam_Weathar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14CFA56C275453930090C46D /* Info Weathar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Info Weathar.swift"; sourceTree = "<group>"; };
+		14F2441027525BD3001E2AFC /* Ahlam_Weathar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ahlam_Weathar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F2441327525BD3001E2AFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14F2441527525BD3001E2AFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		14F2441727525BD3001E2AFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14F2441A27525BD3001E2AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14F2441C27525BD4001E2AFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14F2441F27525BD4001E2AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14F2442127525BD4001E2AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F2442627525BD4001E2AFC /* Ahlam_WeatharTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ahlam_WeatharTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F2442A27525BD4001E2AFC /* Ahlam_WeatharTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ahlam_WeatharTests.swift; sourceTree = "<group>"; };
+		14F2443027525BD4001E2AFC /* Ahlam_WeatharUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ahlam_WeatharUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F2443427525BD4001E2AFC /* Ahlam_WeatharUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ahlam_WeatharUITests.swift; sourceTree = "<group>"; };
+		14F2443627525BD4001E2AFC /* Ahlam_WeatharUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ahlam_WeatharUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14F2440D27525BD3001E2AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F2442327525BD4001E2AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F2442D27525BD4001E2AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14CFA56A2754535A0090C46D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14CFA56C275453930090C46D /* Info Weathar.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		14CFA56B2754536C0090C46D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				14F2441727525BD3001E2AFC /* ViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		14F2440727525BD3001E2AFC = {
+			isa = PBXGroup;
+			children = (
+				14F2441227525BD3001E2AFC /* Ahlam_Weathar */,
+				14F2442927525BD4001E2AFC /* Ahlam_WeatharTests */,
+				14F2443327525BD4001E2AFC /* Ahlam_WeatharUITests */,
+				14F2441127525BD3001E2AFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14F2441127525BD3001E2AFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14F2441027525BD3001E2AFC /* Ahlam_Weathar.app */,
+				14F2442627525BD4001E2AFC /* Ahlam_WeatharTests.xctest */,
+				14F2443027525BD4001E2AFC /* Ahlam_WeatharUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14F2441227525BD3001E2AFC /* Ahlam_Weathar */ = {
+			isa = PBXGroup;
+			children = (
+				14CFA56B2754536C0090C46D /* VC */,
+				14CFA56A2754535A0090C46D /* Model */,
+				14F2441327525BD3001E2AFC /* AppDelegate.swift */,
+				14F2441527525BD3001E2AFC /* SceneDelegate.swift */,
+				14F2441927525BD3001E2AFC /* Main.storyboard */,
+				14F2441C27525BD4001E2AFC /* Assets.xcassets */,
+				14F2441E27525BD4001E2AFC /* LaunchScreen.storyboard */,
+				14F2442127525BD4001E2AFC /* Info.plist */,
+			);
+			path = Ahlam_Weathar;
+			sourceTree = "<group>";
+		};
+		14F2442927525BD4001E2AFC /* Ahlam_WeatharTests */ = {
+			isa = PBXGroup;
+			children = (
+				14F2442A27525BD4001E2AFC /* Ahlam_WeatharTests.swift */,
+				14F2443427525BD4001E2AFC /* Ahlam_WeatharUITests.swift */,
+			);
+			path = Ahlam_WeatharTests;
+			sourceTree = "<group>";
+		};
+		14F2443327525BD4001E2AFC /* Ahlam_WeatharUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14F2443627525BD4001E2AFC /* Ahlam_WeatharUITestsLaunchTests.swift */,
+			);
+			path = Ahlam_WeatharUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14F2440F27525BD3001E2AFC /* Ahlam_Weathar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F2443A27525BD4001E2AFC /* Build configuration list for PBXNativeTarget "Ahlam_Weathar" */;
+			buildPhases = (
+				14F2440C27525BD3001E2AFC /* Sources */,
+				14F2440D27525BD3001E2AFC /* Frameworks */,
+				14F2440E27525BD3001E2AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ahlam_Weathar;
+			productName = Ahlam_Weathar;
+			productReference = 14F2441027525BD3001E2AFC /* Ahlam_Weathar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14F2442527525BD4001E2AFC /* Ahlam_WeatharTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F2443D27525BD4001E2AFC /* Build configuration list for PBXNativeTarget "Ahlam_WeatharTests" */;
+			buildPhases = (
+				14F2442227525BD4001E2AFC /* Sources */,
+				14F2442327525BD4001E2AFC /* Frameworks */,
+				14F2442427525BD4001E2AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F2442827525BD4001E2AFC /* PBXTargetDependency */,
+			);
+			name = Ahlam_WeatharTests;
+			productName = Ahlam_WeatharTests;
+			productReference = 14F2442627525BD4001E2AFC /* Ahlam_WeatharTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14F2442F27525BD4001E2AFC /* Ahlam_WeatharUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F2444027525BD4001E2AFC /* Build configuration list for PBXNativeTarget "Ahlam_WeatharUITests" */;
+			buildPhases = (
+				14F2442C27525BD4001E2AFC /* Sources */,
+				14F2442D27525BD4001E2AFC /* Frameworks */,
+				14F2442E27525BD4001E2AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F2443227525BD4001E2AFC /* PBXTargetDependency */,
+			);
+			name = Ahlam_WeatharUITests;
+			productName = Ahlam_WeatharUITests;
+			productReference = 14F2443027525BD4001E2AFC /* Ahlam_WeatharUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14F2440827525BD3001E2AFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					14F2440F27525BD3001E2AFC = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					14F2442527525BD4001E2AFC = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 14F2440F27525BD3001E2AFC;
+					};
+					14F2442F27525BD4001E2AFC = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 14F2440F27525BD3001E2AFC;
+					};
+				};
+			};
+			buildConfigurationList = 14F2440B27525BD3001E2AFC /* Build configuration list for PBXProject "Ahlam_Weathar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14F2440727525BD3001E2AFC;
+			productRefGroup = 14F2441127525BD3001E2AFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14F2440F27525BD3001E2AFC /* Ahlam_Weathar */,
+				14F2442527525BD4001E2AFC /* Ahlam_WeatharTests */,
+				14F2442F27525BD4001E2AFC /* Ahlam_WeatharUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14F2440E27525BD3001E2AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F2442027525BD4001E2AFC /* LaunchScreen.storyboard in Resources */,
+				14F2441D27525BD4001E2AFC /* Assets.xcassets in Resources */,
+				14F2441B27525BD3001E2AFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F2442427525BD4001E2AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F2442E27525BD4001E2AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14F2440C27525BD3001E2AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F2441827525BD3001E2AFC /* ViewController.swift in Sources */,
+				14CFA56D275453930090C46D /* Info Weathar.swift in Sources */,
+				14F2441427525BD3001E2AFC /* AppDelegate.swift in Sources */,
+				14F2441627525BD3001E2AFC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F2442227525BD4001E2AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CFA56E2754E8F70090C46D /* Ahlam_WeatharUITests.swift in Sources */,
+				14F2442B27525BD4001E2AFC /* Ahlam_WeatharTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F2442C27525BD4001E2AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F2443727525BD4001E2AFC /* Ahlam_WeatharUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14F2442827525BD4001E2AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14F2440F27525BD3001E2AFC /* Ahlam_Weathar */;
+			targetProxy = 14F2442727525BD4001E2AFC /* PBXContainerItemProxy */;
+		};
+		14F2443227525BD4001E2AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14F2440F27525BD3001E2AFC /* Ahlam_Weathar */;
+			targetProxy = 14F2443127525BD4001E2AFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14F2441927525BD3001E2AFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F2441A27525BD3001E2AFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14F2441E27525BD4001E2AFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F2441F27525BD4001E2AFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14F2443827525BD4001E2AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14F2443927525BD4001E2AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14F2443B27525BD4001E2AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTW43QW327;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ahlam_Weathar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ahlam-Jur.Ahlam-Weathar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14F2443C27525BD4001E2AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTW43QW327;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ahlam_Weathar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ahlam-Jur.Ahlam-Weathar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14F2443E27525BD4001E2AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTW43QW327;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ahlam-Jur.Ahlam-WeatharTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ahlam_Weathar.app/Ahlam_Weathar";
+			};
+			name = Debug;
+		};
+		14F2443F27525BD4001E2AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTW43QW327;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ahlam-Jur.Ahlam-WeatharTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ahlam_Weathar.app/Ahlam_Weathar";
+			};
+			name = Release;
+		};
+		14F2444127525BD4001E2AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTW43QW327;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ahlam-Jur.Ahlam-WeatharUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ahlam_Weathar;
+			};
+			name = Debug;
+		};
+		14F2444227525BD4001E2AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTW43QW327;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ahlam-Jur.Ahlam-WeatharUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ahlam_Weathar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14F2440B27525BD3001E2AFC /* Build configuration list for PBXProject "Ahlam_Weathar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F2443827525BD4001E2AFC /* Debug */,
+				14F2443927525BD4001E2AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F2443A27525BD4001E2AFC /* Build configuration list for PBXNativeTarget "Ahlam_Weathar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F2443B27525BD4001E2AFC /* Debug */,
+				14F2443C27525BD4001E2AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F2443D27525BD4001E2AFC /* Build configuration list for PBXNativeTarget "Ahlam_WeatharTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F2443E27525BD4001E2AFC /* Debug */,
+				14F2443F27525BD4001E2AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F2444027525BD4001E2AFC /* Build configuration list for PBXNativeTarget "Ahlam_WeatharUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F2444127525BD4001E2AFC /* Debug */,
+				14F2444227525BD4001E2AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14F2440827525BD3001E2AFC /* Project object */;
+}
