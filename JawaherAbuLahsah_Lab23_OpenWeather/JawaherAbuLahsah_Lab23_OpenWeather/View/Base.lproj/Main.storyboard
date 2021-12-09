@@ -102,8 +102,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="A90-0b-uuS">
-                                        <rect key="frame" x="0.0" y="70.5" width="334" height="95.5"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A90-0b-uuS">
+                                        <rect key="frame" x="0.0" y="69" width="334" height="100"/>
                                         <color key="tintColor" red="0.44808148478230603" green="0.68128776763987453" blue="0.85856958762886593" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="50Y-6z-Bv3"/>
@@ -168,6 +168,7 @@
                         <outlet property="cityNameLabel" destination="a8w-rJ-fM2" id="HET-3V-Cis"/>
                         <outlet property="descriptionLabel" destination="b6R-Df-fUY" id="vxo-rw-k8c"/>
                         <outlet property="temperatureLabel" destination="kdB-Ps-aCC" id="IRk-zQ-36D"/>
+                        <outlet property="weatherImage" destination="A90-0b-uuS" id="qSn-C7-xAR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -176,7 +177,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cloud.fill" catalog="system" width="128" height="88"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

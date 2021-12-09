@@ -9,11 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var weatherImage: UIImageView!
     @IBOutlet weak var cityNameLabel: UILabel!
     @IBOutlet weak var temperatureLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var cityInputTextField: UITextField!
-   
+   //var idWeather = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -43,7 +44,9 @@ class ViewController: UIViewController {
                                 DispatchQueue.main.async {
                                     self.cityNameLabel.text = decodable.name
                                     self.descriptionLabel.text = decodable.weather[0].description
-                                    self.temperatureLabel.text = String(format: "%.0f", decodable.main.temp - 273.15)
+                                    self.temperatureLabel.text = String(format: "%.0f", decodable.main.temp - 273.15) + "℃"
+                                   // self.idWeather = decodable.weather[0].id
+                                    self.imageWeather(decodable.weather[0].id)
                                 }
                             } catch  {
                                 print("ERROR...")
@@ -61,5 +64,24 @@ extension ViewController:UITextFieldDelegate{
         return true
     }
     
-    
+    func imageWeather(_ idWeather:Int){
+        switch(idWeather){
+        case 200...232:
+            weatherImage.image = UIImage (systemName: "cloud.bolt")
+        case 300...321:
+            weatherImage.image = UIImage (systemName: "cloud.drizzle")
+        case 500...531:
+            weatherImage.image = UIImage (systemName: "cloud.rain")
+        case 600...622:
+            weatherImage.image = UIImage (systemName: "cloud.snow")
+        case 701...781:
+            weatherImage.image = UIImage (systemName: "cloud.fog")
+        case 800:
+            weatherImage.image = UIImage (systemName: "sun.max")
+        case 801...804:
+            weatherImage.image = UIImage (systemName: "cloud.bolt")
+        default:
+            weatherImage.image = UIImage (systemName: "cloud")
+        }
+    }
 }
