@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O7v-Kx-ilR">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="h9B-lk-D4S">
+            <objects>
+                <viewController id="O7v-Kx-ilR" customClass="ViewController" customModule="WeatherAppLab23" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rOo-SC-Ni2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="2o9-OO-bzj">
+                                <rect key="frame" x="5" y="80" width="310" height="202.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Jh-kG-GyM">
+                                        <rect key="frame" x="103" y="0.0" width="104" height="27.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="C4g-xj-OoT">
+                                        <rect key="frame" x="20" y="64.5" width="270" height="34"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OGS-TP-nr1">
+                                                <rect key="frame" x="0.0" y="0.0" width="191" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ue-AS-x9Y">
+                                                <rect key="frame" x="201" y="1.5" width="69" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Search"/>
+                                                <connections>
+                                                    <action selector="searchButton:" destination="O7v-Kx-ilR" eventType="touchUpInside" id="moQ-YJ-pbm"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JsS-2H-5ei">
+                                        <rect key="frame" x="104" y="135.5" width="102.5" height="67"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clear Sky" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V1g-Yo-PX6">
+                                                <rect key="frame" x="0.0" y="0.0" width="102.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="69 C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f1q-BY-zLz">
+                                                <rect key="frame" x="17.5" y="30" width="67.5" height="37"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="C4g-xj-OoT" firstAttribute="leading" secondItem="2o9-OO-bzj" secondAttribute="leading" constant="20" id="8iQ-Dz-vKh"/>
+                                    <constraint firstAttribute="trailing" secondItem="C4g-xj-OoT" secondAttribute="trailing" constant="20" id="eDc-yb-nBw"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2OU-QT-2fs"/>
+                        <color key="backgroundColor" red="0.89264668479999998" green="0.98768268729999997" blue="1" alpha="0.91869308770000002" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="2OU-QT-2fs" firstAttribute="trailing" secondItem="2o9-OO-bzj" secondAttribute="trailing" constant="5" id="HgM-LL-swq"/>
+                            <constraint firstItem="2OU-QT-2fs" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="2o9-OO-bzj" secondAttribute="bottom" constant="280" id="Zxz-9e-SZc"/>
+                            <constraint firstItem="2o9-OO-bzj" firstAttribute="leading" secondItem="2OU-QT-2fs" secondAttribute="leading" constant="5" id="a7I-Xp-7PJ"/>
+                            <constraint firstItem="2o9-OO-bzj" firstAttribute="top" secondItem="2OU-QT-2fs" secondAttribute="top" constant="80" id="njn-EE-32T"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cityName" destination="3Jh-kG-GyM" id="b33-mO-FHh"/>
+                        <outlet property="searchBar" destination="OGS-TP-nr1" id="bDk-Fp-mDC"/>
+                        <outlet property="temp" destination="f1q-BY-zLz" id="6Sw-wM-FmE"/>
+                        <outlet property="weatherDecreption" destination="V1g-Yo-PX6" id="GyM-MY-TaZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ogL-7U-QcP" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33.75" y="97.183098591549296"/>
+        </scene>
+    </scenes>
+</document>
