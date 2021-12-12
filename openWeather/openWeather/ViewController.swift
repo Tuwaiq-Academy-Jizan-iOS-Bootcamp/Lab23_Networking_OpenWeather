@@ -8,6 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var descriptionLable: UILabel!
     @IBOutlet weak var nameCityLabel: UILabel!
     @IBOutlet weak var temperaterLabel: UILabel!
     @IBOutlet weak var insertNameCityTextField: UITextField!
@@ -50,6 +51,7 @@ print(link)
                                 print(decodedData.name)
             self.temperaterLabel.text = String(format:"%.0f", decodedData.main.temp )
                                 print(decodedData.main.temp)
+              self.descriptionLable.text = decodedData.weather[0].main
                             }
                         }catch{
                             print("SOMETHING WENT WRONG",error.localizedDescription)
@@ -74,3 +76,4 @@ extension ViewController:UITextFieldDelegate {
         return true
     }
 }
+
