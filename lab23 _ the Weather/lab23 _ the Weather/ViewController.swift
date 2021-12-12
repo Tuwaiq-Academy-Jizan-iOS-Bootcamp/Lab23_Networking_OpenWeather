@@ -33,7 +33,7 @@ class ViewController: UIViewController {
          }
          func searchWeather(nameOfCity:String){
              print("\(nameOfCity)")
-             let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(nameOfCity)&appid=a96e19e6c3f8ee61eaa18fea91ea2653" )
+             let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(nameOfCity)&appid=a96e19e6c3f8ee61eaa18fea91ea2653&units=metric")
                       if let url = url {
                  let session = URLSession(configuration: .default)
                  let task = session.dataTask(with: url) { data, response, error in
